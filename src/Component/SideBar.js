@@ -10,7 +10,7 @@ function SideBar() {
   return (
     
     <div>
-      <div className="sidNav">
+      <div className="sidNav text-text-color">
         <div className="two-col gap-5" >
           <div className="top flex flex-col gap-6">
             <div className="logo flex gap-4">
