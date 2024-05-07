@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import SideBar from './Component/SideBar';
+import NavBar from './Component/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex">
+      <div className={`w-72 h-screen bg-dark-purpule p-5 pt-8`}><SideBar/></div>
+      <div className=' text-x font-semibol  flex-1 h-screen'>
+        <div className='bg-dark-purpule p-3'><NavBar/></div>
+        
+      </div>
     </div>
   );
 }
