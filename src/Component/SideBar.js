@@ -13,7 +13,7 @@ function SideBar() {
       <div className="sidNav text-text-color">
         <div className="two-col gap-5" >
           <div className="top flex flex-col gap-6">
-            <div className="logo flex gap-4">
+            <div className="logo flex ">
               <div >
                 <svg
                   width="38"
@@ -52,7 +52,7 @@ function SideBar() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-4 my-40 font-medium text-xl duration-300">
+          <div className="flex flex-col gap-4 my-40 font-small text-s duration-300">
             <div className="bottom-opt flex gap-4">
               <div>
                 <svg
