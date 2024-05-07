@@ -60,7 +60,7 @@ function App() {
               {/* <div className="box"> */}
               <input
                 name="text"
-                className="mt-5 xl:bg-transparent h-5 p-10 "
+                className="mt-5 xl:bg-transparent h-5 p-5 "
                 id="text-area"
                 placeholder="Enter Your Queries"
               />
@@ -73,15 +73,15 @@ function App() {
             </div>
             <div className="lower-text">
               <p>Try to search this-</p>
-              <div className="lower-text-sub1  text-center flex  justify-center gap-5">
-                <p className="sub2 border-solid border-1 p-2 mt-3 mb-3 border-black ...">
+              <div className="lower-text-sub1  text-center flex  justify-center gap-2">
+                <p className="sub2 border-solid border-1 p-1 mt-3 mb-3 border-black ...">
                   How do I cook pasta al dente?
                 </p>
-                <p className="sub2 border-solid border-1 p-2 mt-3 mb-3 border-black ...">
-                  How do I cook pasta al dente?
+                <p className="sub2 border-solid border-1 p-1 mt-3 mb-3 border-black ...">
+                  The founding story of McDonalds
                 </p>
               </div>
-              <p className="sub1">How do I cook pasta al dente?</p>
+              <p className="sub1">What are the latest trend in fashion</p>
             </div>
           </div>
         </div>

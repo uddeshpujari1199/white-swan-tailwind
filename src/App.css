@@ -5,9 +5,9 @@
   font-family: 'Helvatica Neue';
 }
 .input-box{
-  width: 50%;
-  height: 4%;
-  margin-left: 25%;
+  width: 48%;
+  height: 2%;
+  margin-left: 26%;
   border-radius: 0 0 15px 0;
   
 }
@@ -34,10 +34,11 @@
 }
 .sub1{
   border: 1px solid black;
-  padding: 10px;
-  width: 40%;
-  margin-left: 30%;
+  padding: 2px;
+  width: 20%;
+  margin-left: 40%;
   font-weight: 500;
+  font-size: small;
 }
 .logo{
   display: flex;
@@ -55,8 +56,10 @@
 }
 .sub2{
   border: 1px solid black;
-  padding: 10px;
+  padding: 2px;
   font-weight: 500;
+  font-size: small;
+  width: 20%;
 }
 #otp1{
   color: white;
@@ -78,10 +81,12 @@
   opacity: 60%;
 }
 .heding-text{
-  background: linear-gradient(red, blue, green);
+  background: linear-gradient(90deg,#4F4BEE,#EC7737);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  opacity: 100%;
 }
 #text-area{
   width: 100%;
